@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Maths Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Maths Quiz</h1>
+        <h4 id="player1name"></h4> <span id="player1score"></span>
+        <br>
+        <h4 id="player2name"></h4> <span id="player2score"></span>
+        <div id="quizDiv" class="container ">
+            <center>
+                <h3 id="playerQ"></h3>
+                <h3 id="playerA"></h3>
+                <div id="output" class="col-md-6"></div>
+                <br>
+                <br>
+                <label>Send your word. <b class="lead" style="color: tomato;">Do put a word with more than 5 alphabets.</b></label>
+                <input type="text" id="word" class="form-control" placeholder="Enter the whole word here.">
+                <br>
+                <button onclick="send()" class="btn btn-success" style="width: 30%;"> Send </button>
+            </center>
+        </div>
+        <img src="https://media.aidaform.com/us-east-1%3Aee61cb49-5d3e-4852-b28f-45fb4a6f75ac/e0l01wpv98.png">
+        <script src="main.js"></script>
+    </body>
+</html>

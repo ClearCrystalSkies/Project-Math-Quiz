@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+    align-items: center;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    background-color: crimson;
+    margin: 10px;
+}
+#mainDiv{
+    background-color:lightsalmon;
+    border-color: chocolate;
+    border-style:groove;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.Login{
+    background-color: coral;
+    border-color: chocolate;
+    border-style:groove;
+    padding: 10px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-left: 20px;
+}
+button{
+    margin: 10px;
+    background-color: tomato;
+    height: 40px;
+    color: black;
+}
+img{
+    width: 98%;
+    height: 402.5px;
+    margin-top: 10px;
+}
