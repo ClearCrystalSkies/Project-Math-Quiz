@@ -11,20 +11,30 @@
     </head>
     <body>
         <h1>Maths Quiz</h1>
-        <h4 id="player1name"></h4> <span id="player1score"></span>
+        <div class="mainDiv">
+        <h6 id="player1name"></h6> <span id="player1score"></span>
         <br>
-        <h4 id="player2name"></h4> <span id="player2score"></span>
+        <h6 id="player2name"></h6> <span id="player2score"></span>
+        </div>
         <div id="quizDiv" class="container ">
             <center>
                 <h3 id="playerQ"></h3>
                 <h3 id="playerA"></h3>
-                <div id="output" class="col-md-6"></div>
+                <div id="output" class="mainDiv col-md-6"></div>
                 <br>
                 <br>
-                <label>Send your word. <b class="lead" style="color: tomato;">Do put a word with more than 5 alphabets.</b></label>
-                <input type="text" id="word" class="form-control" placeholder="Enter the whole word here.">
-                <br>
-                <button onclick="send()" class="btn btn-success" style="width: 30%;"> Send </button>
+                <div class="mainDiv">
+                 <div class="Login col-md-4">
+                  <label><b class="lead">Number 1</b></label>
+                  <input type="number" id="number1" class="form-control" placeholder="Enter the first no.">
+                 </div>
+                 <div class="Login col-md-4">
+                  <label><b class="lead">Number 2</b></label>
+                  <input type="number" id="number2" class="form-control" placeholder="Enter the second no.">
+                 </div>
+                 <br>
+                 <button onclick="send()"> Send </button>
+                </div>
             </center>
         </div>
         <img src="https://media.aidaform.com/us-east-1%3Aee61cb49-5d3e-4852-b28f-45fb4a6f75ac/e0l01wpv98.png">
