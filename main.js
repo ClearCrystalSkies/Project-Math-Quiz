@@ -17,8 +17,8 @@ player2score = 0;
 
 document.getElementById("player1name").innerHTML = player1name + " : ";
 document.getElementById("player2name").innerHTML = player2name + " : ";
-document.getElementById("player1score").innerHTML = player1score;
-document.getElementById("player2score").innerHTML = player2score;
+document.getElementById("Player1score").innerHTML = player1score;
+document.getElementById("Player2score").innerHTML = player2score;
 document.getElementById("playerQ").innerHTML = "Question Turn : " + player1name;
 document.getElementById("playerA").innerHTML = "Answer Turn : " + player2name;
 
@@ -42,11 +42,11 @@ function check(){
     get_answer = document.getElementById("input_check_box").value;
     if (get_answer == actual_answer){
         if (answer_turn == "player1") {
-            update_player1_score = player1score + 1;
-            document.getElementById("player1score").innerHTML = update_player1_score;
+            player1score = player1score + 1;
+            document.getElementById("Player1score").innerHTML = player1score;
         }else{
-            update_player2_score = player2score + 1;
-            document.getElementById("player2score").innerHTML = update_player2_score;
+            player2score = player2score + 1;
+            document.getElementById("Player2score").innerHTML = player2score;
         }
     }
     if (get_answer =! actual_answer){
